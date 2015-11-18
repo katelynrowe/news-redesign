@@ -1,0 +1,157 @@
+.container {
+	float: inline;
+}
+.headers {
+	vertical-align: center;
+	text-align: center;
+}
+
+.header {
+	text-align: center;
+}
+
+.header img {
+	float: inline;
+	text-align: center;
+	margin-right: 1em;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+.headers a {
+	font-family: "roboto";
+	font-weight: thin;
+	font-size: 1.25em;
+	color: black;
+	text-decoration: none;
+	margin: .75em;
+	margin-right: 20px;
+}
+
+.dominant {
+	background-color: rgba(255,0,0,.8);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.dominant img {
+	width: 100%;
+	height: 375px;
+	margin-bottom: .1em;
+	margin-top: .5em;
+}
+
+h1 {
+	font-family: "roboto";
+	font-weight: bold;
+	font-size: 2.75em;
+	margin-bottom: .25em;
+	color: white;
+}
+
+.ad {
+	background-color: cyan;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	color: red;
+	font-family: roboto;
+	font-weight: bold;
+	font-size: 1.75em;
+	float: inline;
+	margin-bottom: .5em;
+}
+
+li {
+ 	list-style: decimal;
+ 	font-family: roboto;
+ 	font-weight: bold;
+ 	font-size: 1em;
+ 	margin-top: .5em;
+}
+
+span {
+	font-family: roboto;
+	color: grey;
+	font-size: 1em;
+	margin-left: 1em;
+}
+
+.trending {
+	margin-bottom: 2em;
+}
+
+.adbox {
+	min-height: 5em;
+	background-color: cyan;
+	margin-bottom: 1em;
+}
+
+.social {	
+	background-color: rgba(255,0,0,.8);	
+	min-height: 5.5em;
+	margin-bottom: 1em;
+}
+
+.video {
+	border: solid 1px;
+	min-height: 5.25em;
+}
+
+h3 {
+	font-family: roboto;
+ 	font-weight: bold;
+ 	font-size: 1em;
+ 	margin-top: .5em;
+ 	text-transform: uppercase;
+ 	margin-bottom: 1em;
+}
+
+.news img {
+	max-width: 480px;
+}
+
+.news a {
+	text-decoration: none;
+	color: black;
+	font-family: roboto;
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 1.5em;
+	float: inline;
+}
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 650px) {
+	.header img {
+		max-height: 3%;
+	}
+
+	.headers a {
+		font-size: 1em;
+	}
+
+	.dominant img {
+		max-height: 25%;
+	}
+
+	.dominant h1 {
+		font-size: 2.5em;
+		margin-bottom: .5em;
+	}
+
+	.news img {
+		width: 50%;
+	}
+
+	.news a {
+		float: inline;
+		margin-bottom: .5em;
+	}
+}
