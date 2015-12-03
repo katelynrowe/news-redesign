@@ -31,7 +31,7 @@
 .dominant {
 	background-color: rgba(0,102,255,1);
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 .dominant img {
@@ -41,12 +41,13 @@
 	margin-top: .5em;
 }
 
-h1 {
+.main-story a {
 	font-family: "Raleway";
 	font-weight: 700;
 	font-size: 2.75em;
 	margin-bottom: .25em;
 	color: white;
+	text-decoration: none;
 }
 
 .ad {
